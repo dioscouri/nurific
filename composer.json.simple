@@ -1,0 +1,14 @@
+{
+    "require": {
+    	"bcosca/fatfree": "dev-master",
+    	
+        "dioscouri/f3-lib": "dev-master",
+        "joomla/framework": ">=1.0",        
+
+        "dioscouri/f3-minify": "dev-master",
+        "leafo/lessphp": "0.4.0",
+        
+        "firephp/firephp-core": "dev-master"        
+    }
+}
+

@@ -22,7 +22,7 @@
         "phpmailer/phpmailer": ">=v5.2.7",
         "mandrill/mandrill": "dev-master",
 
-		"dioscouri/f3-shop": "dev-master",
+        "dioscouri/f3-shop": "dev-master",
         "dioscouri/f3-redirect": "dev-master",
         "dioscouri/f3-massupdate": "dev-master",
         
