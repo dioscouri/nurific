@@ -1,4 +1,5 @@
 .htpasswd
+composer.json
 composer.lock
 /vendor
 /logs
