@@ -1,0 +1,32 @@
+{
+    "require": {
+    	"bcosca/fatfree": "dev-master",
+    	
+        "dioscouri/f3-lib": "dev-master",
+        "joomla/framework": ">=1.0",        
+
+        "dioscouri/f3-minify": "dev-master",
+        "leafo/lessphp": "0.4.0",
+
+        "dioscouri/f3-admin": "dev-master",
+        "dioscouri/f3-users": "dev-master",
+        "hybridauth/hybridauth" : "dev-master",
+        
+        "dioscouri/f3-assets": "dev-master",
+        "dioscouri/f3-blog": "dev-master",
+        "dioscouri/f3-modules": "dev-master",
+        "dioscouri/f3-pages": "dev-master",
+        "dioscouri/f3-search": "dev-master",
+                
+        "dioscouri/f3-mailer": "dev-master",
+        "phpmailer/phpmailer": ">=v5.2.7",
+        "mandrill/mandrill": "dev-master",
+
+		"dioscouri/f3-shop": "dev-master",
+        "dioscouri/f3-redirect": "dev-master",
+        "dioscouri/f3-massupdate": "dev-master",
+        
+        "firephp/firephp-core": "dev-master"        
+    }
+}
+

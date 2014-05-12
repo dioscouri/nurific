@@ -1,0 +1,6 @@
+.htpasswd
+composer.lock
+/vendor
+/logs
+/cache
+/tmp
