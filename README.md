@@ -6,4 +6,4 @@ Fastest way to get started:
 * Edit the /config/common.config.ini, providing at least a Mongo connection string and database name
 * Enable safemode in you common.config.ini and generate a password for the safemode user
 * Browse to your new site's admin at yoursite.com/admin and login with the safemode credentials
-* Start coding your front-end Theme :-)
+* Start coding your front-end Theme in /apps/Theme :-)
