@@ -5,3 +5,7 @@ composer.lock
 /logs
 /cache
 /tmp
+
+public/theme
+
+composer.json.cms
