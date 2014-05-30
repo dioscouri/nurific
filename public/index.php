@@ -1,10 +1,12 @@
 <?php
+//Require FatFree Base Library https://github.com/bcosca/fatfree
 $app = require '../vendor/bcosca/fatfree/lib/base.php';
 
 $app->set('PATH_ROOT', __dir__ . '/../');
 $app->set('AUTOLOAD', $app->get('PATH_ROOT') . 'lib/;' . $app->get('PATH_ROOT') . 'apps/;');
 
-require $app->get('PATH_ROOT') . 'vendor/autoload.php';
+//AUTOLOAD all your composer libraries now. 
+(@include_once ($app->get('PATH_ROOT') . 'vendor/autoload.php')) OR die("You need to run php composer.phar install for your application to run.");
 
 $app->set('APP_NAME', 'site');
 if (strpos(strtolower($app->get('URI')), $app->get('BASE') . '/admin') !== false)
