@@ -28,16 +28,19 @@ class ThemeBootstrap extends \Dsc\Bootstrap
         // Tell the admin that this is an available front-end theme
         \Dsc\System::instance()->get('theme')->registerTheme('Theme', $this->app->get('PATH_ROOT') . 'apps/Theme/');
         
-        // register this theme's module positions with the admin
-        \Modules\Factory::registerPositions(array(
-            'theme-below-header',
-            'theme-above-footer',
-            'theme-below-footer',
-            'theme-above-content',
-            'theme-below-content',
-            'theme-left-content',
-            'theme-right-content'
-        ));
+        if (class_exists('\Modules\Factory')) 
+        {
+            // register this theme's module positions with the admin
+            \Modules\Factory::registerPositions(array(
+                'theme-below-header',
+                'theme-above-footer',
+                'theme-below-footer',
+                'theme-above-content',
+                'theme-below-content',
+                'theme-left-content',
+                'theme-right-content'
+            ));
+        }
     }
 
     /**
