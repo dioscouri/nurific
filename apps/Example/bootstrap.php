@@ -10,5 +10,14 @@ class ExampleBootstrap extends \Dsc\Bootstrap
     protected $dir = __DIR__;
 
     protected $namespace = 'Example';
+    
+     /**
+     * Register this app's view files for all global_apps
+     * @param string $global_app
+     */
+    protected function registerViewFiles($global_app)
+    {
+    	\Dsc\System::instance()->get('theme')->registerViewPath($this->dir . '/' . $global_app . '/Views/', $this->namespace . '/' . $global_app . '/Views');
+    }
 }
 $app = new ExampleBootstrap();
