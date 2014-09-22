@@ -17,7 +17,7 @@
         "dioscouri/f3-modules": "dev-master",
         "dioscouri/f3-pages": "dev-master",
         "dioscouri/f3-search": "dev-master",
-                
+        "snowplow/referer-parser": "dev-master",        
         "dioscouri/f3-mailer": "dev-master",
         "phpmailer/phpmailer": ">=v5.2.7",
         "mandrill/mandrill": "dev-master",
