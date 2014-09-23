@@ -15,7 +15,7 @@
         "dioscouri/f3-assets": "dev-master",
         "dioscouri/f3-blog": "dev-master",
         "dioscouri/f3-modules": "dev-master",
-         "snowplow/referer-parser": "dev-master",  
+        "snowplow/referer-parser": "dev-master",  
         "dioscouri/f3-pages": "dev-master",
         "dioscouri/f3-search": "dev-master",
                 
@@ -24,9 +24,10 @@
         "mandrill/mandrill": "dev-master",
 
         "dioscouri/f3-shop": "dev-master",
+        "dioscouri/f3-affiliates":"dev-master",
         "dioscouri/f3-redirect": "dev-master",
         "dioscouri/f3-massupdate": "dev-master",
-        
+        "dioscouri/f3-activity":"dev-master",
         "firephp/firephp-core": "dev-master"        
     }
 }
