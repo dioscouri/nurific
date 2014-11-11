@@ -1,6 +1,8 @@
 <?php
-//Require FatFree Base Library https://github.com/bcosca/fatfree
-$app = require '../vendor/bcosca/fatfree/lib/base.php';
+//AUTOLOAD all your composer libraries now.
+(@include_once (__dir__ . '/../vendor/autoload.php')) OR die("You need to run php composer.phar install for your application to run.");
+
+$app = Base::instance();
 
 $app->set('PATH_ROOT', __dir__ . '/../');
 $app->set('AUTOLOAD', $app->get('PATH_ROOT') . 'lib/;' . $app->get('PATH_ROOT') . 'apps/;');
